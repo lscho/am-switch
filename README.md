@@ -8,8 +8,6 @@
 
 - 直接下载：[下载地址](https://github.com/lscho/am-switch/archive/master.zip)
 
-- npm安装：npm install am-switch
-
 **2. 引入文件**
 依赖于amaze ui框架，需要先引入框架文件
 ```javascript
