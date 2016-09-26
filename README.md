@@ -57,7 +57,28 @@
 <input type="checkbox" class="am-switch am-round am-switch-default" checked />
 ```
 
+**5.异步渲染**
 
+$(element).switch();
+
+```html
+        <button class="am-btn am-btn-default" id="insert">插入</button>   
+        <div class="am-g" id="content" style="margin-top:40px;">
+
+        </div>
+```
+
+```javascript
+        <script type="text/javascript">
+          $(function(){
+            $("#insert").click(function(){
+              $switch=$('<input type="checkbox" class="am-switch am-switch-default" checked />');
+              $("#content").append($switch);
+              $switch.switch();
+            });
+          });
+        </script>
+```
 ##License
 
 MIT © 2015 - 2016 AllMobilize Inc.

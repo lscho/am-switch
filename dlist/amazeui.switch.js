@@ -9,12 +9,12 @@
 		}else{
 			_this._init($element);
 		}
-		this._on();
+		return this;
 	}
 	switchs.prototype._init=function($element){
 		var _class=$element[0].className;
 		$element[0].className="";
-		var $switch=$("<div></div>");
+		var $switch=$("<div _switch></div>");
 		$switch[0].className=_class;
 		if($element.is(':checked'))$switch.addClass('am-active');
 		$switch.append('<div class="am-switch-handle"></div>')
@@ -41,6 +41,6 @@
 		}
 	});
 	UI.ready(function(context) {
-		$('.am-switch', context).switch();
+		$('.am-switch', context).switch()._on();
 	});
 }(jQuery,jQuery.AMUI);

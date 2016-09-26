@@ -77,6 +77,25 @@
         </div>
     </div>
 
+    <div class="am-panel">
+        <div class="am-panel-hd">异步渲染</div>
+        <div class="am-panel-bd">
+        <button class="am-btn am-btn-default" id="insert">插入</button>   
+        <script type="text/javascript">
+          $(function(){
+            $("#insert").click(function(){
+              $switch=$('<input type="checkbox" class="am-switch am-switch-default" checked />');
+              $("#content").append($switch);
+              $switch.switch();
+            });
+          });
+        </script>
+        <div class="am-g" id="content" style="margin-top:40px;">
+
+        </div>
+        </div>
+    </div>    
+
 
 </body>
 
