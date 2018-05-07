@@ -79,6 +79,6 @@ $(element).switch();
           });
         </script>
 ```
-##License
+## License
 
-MIT © 2015 - 2016 AllMobilize Inc.
+MIT
