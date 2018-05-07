@@ -2,7 +2,7 @@
 
 [demo地址](https://lscho.github.io/am-switch/docs/demo.html "demo地址")
 
-###使用说明
+### 使用
 
 **1. 获取**
 
@@ -24,7 +24,7 @@
     <input type="checkbox" class="am-switch" />
 ```
 
-##文档
+## 示例
 
 **1. 普通示例**
 
@@ -57,7 +57,7 @@
 <input type="checkbox" class="am-switch am-round am-switch-default" checked />
 ```
 
-**5.异步渲染**
+**5.js调用**
 
 $(element).switch();
 
